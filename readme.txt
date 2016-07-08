@@ -5,7 +5,7 @@
 *************  Important Instructions Follow  ************
 **********************************************************
 
-All files exported to: Z:\\47\\32\\4732651\\9\Eagle\2016-07-08_01-16-54\2016-07-08_01-16-54.xml
+All files exported to: Z:\\47\\32\\4732651\\9\Eagle\2016-07-08_01-20-50\2016-07-08_01-20-50.xml
 
 
 **********************************************************
@@ -70,58 +70,14 @@ http://youtu.be/5jGuWY-Yy3Q
 Padstack "RX78p74Y236p22D0T" renamed to "RX78p74Y236p22D0"
 Component "CC0805KRX7R9BB222" renamed to "CC0805KRX7R9BB222"
 Component "GRM21BR61E475MA12L" renamed to "GRM21BR61E475MA12L"
-Component "WB_CURRENT_LOAD" renamed to "WB_CURRENT_LOAD"
-Component "PMEG6010CEH,115" renamed to "PMEG6010CEH,115"
-Component "WB_GND" renamed to "WB_GND"
+Component "GRM31CR71H475KA12L" renamed to "GRM31CR71H475KA12L"
+Component "TPS61170DRVR" renamed to "TPS61170DRVR"
 Component "SRN6045-220M" renamed to "SRN6045-220M"
 Component "CRCW040246K4FKED" renamed to "CRCW040246K4FKED"
 Component "CRCW040210K5FKED" renamed to "CRCW040210K5FKED"
 Component "CRCW0402226KFKED" renamed to "CRCW0402226KFKED"
-Component "TPS61170DRVR" renamed to "TPS61170DRVR"
-Component "WB_BATTERY" renamed to "WB_BATTERY"
-Component "GRM31CR71H475KA12L" renamed to "GRM31CR71H475KA12L"
-The Symbol WB_CONTINUATION was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_CONTINUATION was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_CONTINUATION was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_BLOCK_IO was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_BLOCK_IO was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_BLOCK_IO was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_PWL_VOLTAGE_SOURCE was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_PWL_VOLTAGE_SOURCE was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_PWL_VOLTAGE_SOURCE was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_SOURCE_RESISTOR was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_SOURCE_RESISTOR was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_SOURCE_RESISTOR was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_PRIM_PWL_VOLTAGE_SOURCE was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_PRIM_PWL_VOLTAGE_SOURCE was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_PRIM_PWL_VOLTAGE_SOURCE was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_CURRENT_PROBE was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_CURRENT_PROBE was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_CURRENT_PROBE was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_LOAD_RESISTOR was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_LOAD_RESISTOR was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_LOAD_RESISTOR was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_PRIM_STARTUP_VOLTAGE_SOURCE was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_PRIM_STARTUP_VOLTAGE_SOURCE was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_PRIM_STARTUP_VOLTAGE_SOURCE was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_STARTUP_VOLTAGE_SOURCE was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_STARTUP_VOLTAGE_SOURCE was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_STARTUP_VOLTAGE_SOURCE was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_PWL_CURRENT_LOAD was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_PWL_CURRENT_LOAD was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_PWL_CURRENT_LOAD was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_PRIMITIVE_BATTERY was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_PRIMITIVE_BATTERY was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_PRIMITIVE_BATTERY was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_CAP_OUTPUT was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_CAP_OUTPUT was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_CAP_OUTPUT was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_VOLTAGE_PROBE was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_VOLTAGE_PROBE was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_VOLTAGE_PROBE was missing a Value attribute, a value was created for the symbol.
-The Symbol WB_COUTX_BLOCK was missing a RefDes attribute, a refdes was created for the symbol.
-The Symbol WB_COUTX_BLOCK was missing a Type attribute, a type was created for the symbol.
-The Symbol WB_COUTX_BLOCK was missing a Value attribute, a value was created for the symbol.
+Component "TP-1502" renamed to "TP-1502"
+Component "PMEG6010CEH,115" renamed to "PMEG6010CEH,115"
 
 
 Ultra Librarian Gold 8.1.44 Process Report
@@ -129,11 +85,11 @@ Ultra Librarian Gold 8.1.44 Process Report
 
 Message - Padstack "RX44Y57D0T" Shape(4) is a CIRCLE with no diameter.
 Message - Padstack "RX44Y71D0T" Shape(4) is a CIRCLE with no diameter.
-Message - Padstack "R10470470000202A" Shape(4) is a CIRCLE with no diameter.
 Message - Padstack "RX78p74Y236p22D0" Shape(4) is a CIRCLE with no diameter.
 Message - Padstack "RX22Y24D0T" Shape(4) is a CIRCLE with no diameter.
 Message - Padstack "RX24Y14D0T" Shape(4) is a CIRCLE with no diameter.
 Message - Padstack "RX39Y63D0T" Shape(4) is a CIRCLE with no diameter.
+Message - Padstack "R10470470000202A" Shape(4) is a CIRCLE with no diameter.
 Message - Component "CC0805KRX7R9BB222" attribute "Cap" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
 Message - Component "CC0805KRX7R9BB222" attribute "ESR" references text style "" that is not in the database.
@@ -152,13 +108,25 @@ Message - Component "GRM21BR61E475MA12L" attribute "IRMS" references text style 
 The default pattern text style "H50s3" was substituted.
 Message - Component "GRM21BR61E475MA12L" attribute "VDC" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
-Message - Component "PMEG6010CEH,115" attribute "Datasheet URL" references text style "" that is not in the database.
+Message - Component "GRM31CR71H475KA12L" attribute "Cap" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
-Message - Component "PMEG6010CEH,115" attribute "Io" references text style "" that is not in the database.
+Message - Component "GRM31CR71H475KA12L" attribute "ESR" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
-Message - Component "PMEG6010CEH,115" attribute "VRRM" references text style "" that is not in the database.
+Message - Component "GRM31CR71H475KA12L" attribute "IRMS" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
-Message - Component "PMEG6010CEH,115" attribute "VFatIo" references text style "" that is not in the database.
+Message - Component "GRM31CR71H475KA12L" attribute "VDC" references text style "" that is not in the database.
+The default pattern text style "H50s3" was substituted.
+Message - Component "TPS61170DRVR" attribute "Datasheet URL" references text style "" that is not in the database.
+The default pattern text style "H50s3" was substituted.
+Message - Component "TPS61170DRVR" attribute "Frequency" references text style "" that is not in the database.
+The default pattern text style "H50s3" was substituted.
+Message - Component "TPS61170DRVR" attribute "Imax" references text style "" that is not in the database.
+The default pattern text style "H50s3" was substituted.
+Message - Component "TPS61170DRVR" attribute "Package" references text style "" that is not in the database.
+The default pattern text style "H50s3" was substituted.
+Message - Component "TPS61170DRVR" attribute "Mktg_Package" references text style "" that is not in the database.
+The default pattern text style "H50s3" was substituted.
+Message - Component "TPS61170DRVR" attribute "NSID" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
 Message - Component "SRN6045-220M" attribute "Datasheet URL" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
@@ -186,39 +154,20 @@ Message - Component "CRCW0402226KFKED" attribute "Power" references text style "
 The default pattern text style "H50s3" was substituted.
 Message - Component "CRCW0402226KFKED" attribute "Tolerance" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
-Message - Component "TPS61170DRVR" attribute "Datasheet URL" references text style "" that is not in the database.
+Message - Component "PMEG6010CEH,115" attribute "Datasheet URL" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
-Message - Component "TPS61170DRVR" attribute "Frequency" references text style "" that is not in the database.
+Message - Component "PMEG6010CEH,115" attribute "Io" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
-Message - Component "TPS61170DRVR" attribute "Imax" references text style "" that is not in the database.
+Message - Component "PMEG6010CEH,115" attribute "VRRM" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
-Message - Component "TPS61170DRVR" attribute "Package" references text style "" that is not in the database.
-The default pattern text style "H50s3" was substituted.
-Message - Component "TPS61170DRVR" attribute "Mktg_Package" references text style "" that is not in the database.
-The default pattern text style "H50s3" was substituted.
-Message - Component "TPS61170DRVR" attribute "NSID" references text style "" that is not in the database.
-The default pattern text style "H50s3" was substituted.
-Message - Component "GRM31CR71H475KA12L" attribute "Cap" references text style "" that is not in the database.
-The default pattern text style "H50s3" was substituted.
-Message - Component "GRM31CR71H475KA12L" attribute "ESR" references text style "" that is not in the database.
-The default pattern text style "H50s3" was substituted.
-Message - Component "GRM31CR71H475KA12L" attribute "IRMS" references text style "" that is not in the database.
-The default pattern text style "H50s3" was substituted.
-Message - Component "GRM31CR71H475KA12L" attribute "VDC" references text style "" that is not in the database.
+Message - Component "PMEG6010CEH,115" attribute "VFatIo" references text style "" that is not in the database.
 The default pattern text style "H50s3" was substituted.
 
-TextStyle count:  24
-Padstack count:   7
-Pattern count:    6
-Symbol count:     22
-Component count:  12
+TextStyle count:  25
+Padstack count:   11
+Pattern count:    7
+Symbol count:     6
+Component count:  10
 
 Export
 
-
-Footprint "WB_CURRENT_LOAD" has no layer data mapped and will be skipped.
-Component "WB_CURRENT_LOAD" requires footprint "WB_CURRENT_LOAD" and will be skipped.
-Footprint "WB_GND" has no layer data mapped and will be skipped.
-Component "WB_GND" requires footprint "WB_GND" and will be skipped.
-Footprint "WB_BATTERY" has no layer data mapped and will be skipped.
-Component "WB_BATTERY" requires footprint "WB_BATTERY" and will be skipped.
