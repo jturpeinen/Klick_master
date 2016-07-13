@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -58,7 +58,7 @@
 <library>
 <packages>
 <package name="LM5088">
-<rectangle x1="-2.55" y1="-2.25" x2="2.55" y2="2.25" layer="1" rot="R270"/>
+<rectangle x1="-2.55" y1="-2.25" x2="2.55" y2="2.25" layer="21" rot="R270"/>
 <smd name="P$1" x="-2.75" y="2.3" dx="1.05" dy="0.3" layer="1"/>
 <smd name="P$2" x="-2.75" y="1.65" dx="1.05" dy="0.3" layer="1"/>
 <smd name="P$3" x="-2.75" y="1" dx="1.05" dy="0.3" layer="1"/>
