@@ -17951,7 +17951,6 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <part name="C2" library="rcl" deviceset="C-US" device="C0805"/>
 <part name="C3" library="rcl" deviceset="C-US" device="C1206"/>
 <part name="C4" library="rcl" deviceset="C-US" device="C1206"/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="R46" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="R47" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="R48" library="rcl" deviceset="R-EU_" device="R0805"/>
@@ -17993,6 +17992,8 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <part name="RT1" library="rcl" deviceset="R-US_" device="R0805" value="220"/>
 <part name="RCOMP1" library="rcl" deviceset="R-US_" device="R0805" value="1k"/>
 <part name="RFBT1" library="rcl" deviceset="R-US_" device="R0805" value="3k3"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C1206"/>
+<part name="R50" library="rcl" deviceset="R-EU_" device="R0805"/>
 </parts>
 <sheets>
 <sheet>
@@ -18067,16 +18068,15 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <instance part="SUPPLY1" gate="VDD" x="-48.26" y="-109.22" rot="R180"/>
 <instance part="SUPPLY2" gate="VDD" x="-68.58" y="-20.32" rot="R180"/>
 <instance part="BOOST" gate="A" x="-38.1" y="124.46"/>
-<instance part="C1" gate="G$1" x="-78.74" y="101.6"/>
-<instance part="C2" gate="G$1" x="-96.52" y="134.62"/>
+<instance part="C1" gate="G$1" x="-96.52" y="132.08"/>
+<instance part="C2" gate="G$1" x="-81.28" y="101.6"/>
 <instance part="C3" gate="G$1" x="-63.5" y="101.6"/>
 <instance part="C4" gate="G$1" x="-71.12" y="101.6"/>
-<instance part="C5" gate="G$1" x="-5.08" y="129.54"/>
 <instance part="R46" gate="G$1" x="-78.74" y="116.84" rot="R180"/>
-<instance part="R47" gate="G$1" x="-66.04" y="119.38" rot="R180"/>
+<instance part="R47" gate="G$1" x="-63.5" y="119.38" rot="R180"/>
 <instance part="R48" gate="G$1" x="-12.7" y="134.62" rot="R180"/>
 <instance part="L1" gate="G$1" x="-83.82" y="134.62" rot="R180"/>
-<instance part="D1" gate="G$1" x="-73.66" y="124.46" rot="R270"/>
+<instance part="D1" gate="G$1" x="-83.82" y="124.46" rot="R270"/>
 <instance part="GND3" gate="1" x="-5.08" y="119.38"/>
 <instance part="U$2" gate="G$1" x="-17.78" y="210.82"/>
 <instance part="COUT" gate="G$1" x="40.64" y="198.12"/>
@@ -18113,6 +18113,8 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <instance part="RT1" gate="G$1" x="-45.72" y="208.28" rot="R180"/>
 <instance part="RCOMP1" gate="G$1" x="5.08" y="165.1" rot="R270"/>
 <instance part="RFBT1" gate="G$1" x="0" y="177.8" rot="R90"/>
+<instance part="C5" gate="G$1" x="-5.08" y="129.54"/>
+<instance part="R50" gate="G$1" x="-76.2" y="119.38" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -18205,23 +18207,20 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <wire x1="68.58" y1="86.36" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-5.08" y1="124.46" x2="-5.08" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-96.52" y1="114.3" x2="-96.52" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="BOOST" gate="A" pin="GND"/>
 <wire x1="-55.88" y1="114.3" x2="-83.82" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R46" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="114.3" x2="-83.82" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="114.3" x2="-88.9" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-83.82" y="114.3"/>
 <wire x1="-88.9" y1="114.3" x2="-83.82" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-96.52" y1="114.3" x2="-106.68" y2="114.3" width="0.1524" layer="91"/>
-<junction x="-96.52" y="114.3"/>
+<wire x1="-88.9" y1="114.3" x2="-96.52" y2="114.3" width="0.1524" layer="91"/>
 <label x="-106.68" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-96.52" y1="114.3" x2="-106.68" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="93.98" x2="-88.9" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-88.9" y="114.3"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -18229,15 +18228,18 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <wire x1="-63.5" y1="93.98" x2="-71.12" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="-63.5" y1="96.52" x2="-63.5" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="93.98" x2="-78.74" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="93.98" x2="-81.28" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-71.12" y="93.98"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="-78.74" y1="93.98" x2="-71.12" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="96.52" x2="-78.74" y2="93.98" width="0.1524" layer="91"/>
-<junction x="-78.74" y="93.98"/>
 <pinref part="BOOST" gate="A" pin="THERMALPAD"/>
+<wire x1="-81.28" y1="93.98" x2="-71.12" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="109.22" x2="-55.88" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-55.88" y="114.3"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="-96.52" y1="127" x2="-96.52" y2="114.3" width="0.1524" layer="91"/>
+<junction x="-96.52" y="114.3"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="96.52" x2="-81.28" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-81.28" y="93.98"/>
 </segment>
 <segment>
 <pinref part="CIN" gate="G$1" pin="2"/>
@@ -18330,7 +18332,6 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <segment>
 <pinref part="R47" gate="G$1" pin="1"/>
 <pinref part="BOOST" gate="A" pin="FB"/>
-<wire x1="-60.96" y1="119.38" x2="-58.42" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="119.38" x2="-55.88" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="119.38" x2="-58.42" y2="116.84" width="0.1524" layer="91"/>
 <junction x="-58.42" y="119.38"/>
@@ -18338,19 +18339,19 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <pinref part="R46" gate="G$1" pin="1"/>
 <wire x1="-58.42" y1="119.38" x2="-58.42" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="109.22" x2="-63.5" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-63.5" y1="109.22" x2="-71.12" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="109.22" x2="-78.74" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="109.22" x2="-78.74" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-71.12" y1="109.22" x2="-71.12" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-71.12" y="109.22"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-63.5" y1="109.22" x2="-63.5" y2="104.14" width="0.1524" layer="91"/>
 <junction x="-63.5" y="109.22"/>
-<junction x="-78.74" y="109.22"/>
-<wire x1="-78.74" y1="109.22" x2="-106.68" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="109.22" x2="-81.28" y2="109.22" width="0.1524" layer="91"/>
 <label x="-106.68" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-81.28" y1="109.22" x2="-106.68" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="104.14" x2="-81.28" y2="109.22" width="0.1524" layer="91"/>
+<junction x="-81.28" y="109.22"/>
 </segment>
 </net>
 <net name="DI-1" class="0">
@@ -19081,14 +19082,14 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <junction x="-63.5" y="134.62"/>
 <wire x1="-71.12" y1="134.62" x2="-78.74" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="-106.68" y1="142.24" x2="-96.52" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-96.52" y1="142.24" x2="-83.82" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-96.52" y1="137.16" x2="-96.52" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="142.24" x2="-83.82" y2="142.24" width="0.1524" layer="91"/>
 <junction x="-83.82" y="142.24"/>
-<wire x1="-96.52" y1="142.24" x2="-106.68" y2="142.24" width="0.1524" layer="91"/>
-<junction x="-96.52" y="142.24"/>
 <label x="-106.68" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="-96.52" y1="134.62" x2="-96.52" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-96.52" y="142.24"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="-2.54" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
@@ -19126,10 +19127,9 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <net name="N$44" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="127" x2="-73.66" y2="127" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-73.66" y1="127" x2="-63.5" y2="127" width="0.1524" layer="91"/>
-<junction x="-73.66" y="127"/>
+<wire x1="-83.82" y1="127" x2="-63.5" y2="127" width="0.1524" layer="91"/>
+<junction x="-83.82" y="127"/>
 <wire x1="-63.5" y1="127" x2="-60.96" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="BOOST" gate="A" pin="SW"/>
 <wire x1="-60.96" y1="124.46" x2="-55.88" y2="124.46" width="0.1524" layer="91"/>
@@ -19138,9 +19138,10 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <net name="N$47" class="0">
 <segment>
 <pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="-68.58" y1="119.38" x2="-71.12" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R50" gate="G$1" pin="1"/>
 <wire x1="-71.12" y1="119.38" x2="-73.66" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="-73.66" y1="119.38" x2="-73.66" y2="121.92" width="0.1524" layer="91"/>
+<junction x="-71.12" y="119.38"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -19154,8 +19155,8 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <segment>
 <pinref part="R48" gate="G$1" pin="1"/>
 <wire x1="-7.62" y1="134.62" x2="-5.08" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="134.62" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -19362,6 +19363,13 @@ Source : &lt;a href="http://www.infineon.com/dgdl/BSZ105N04NSG_rev1.1.pdf?folder
 <pinref part="U$2" gate="G$1" pin="RT"/>
 <pinref part="RT1" gate="G$1" pin="1"/>
 <wire x1="-33.02" y1="208.28" x2="-40.64" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<pinref part="R50" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="-81.28" y1="119.38" x2="-83.82" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
