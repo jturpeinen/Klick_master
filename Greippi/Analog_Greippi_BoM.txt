@@ -1,0 +1,21 @@
+Partlist exported from C:/Users/PAJA/Documents/eagle/Uadi-voleco/Klick_master/Greippi/Analog_Greippi.sch at 19.7.2016 9:58
+
+Qty Value   Device     Package            Parts             Description               
+4   10k     R-US_R0805 R0805              R8, R16, R23, R30 RESISTOR, American symbol 
+1   110k    R-US_R0805 R0805              R28               RESISTOR, American symbol 
+3   120k    R-US_R0805 R0805              R10, R31, R32     RESISTOR, American symbol 
+1   15k     R-US_R0805 R0805              R29               RESISTOR, American symbol 
+1   1k      R-US_R0805 R0805              R14               RESISTOR, American symbol 
+1   20      R-US_R0805 R0805              R13               RESISTOR, American symbol 
+1   24k     R-US_R0805 R0805              R17               RESISTOR, American symbol 
+3   30k     R-US_R0805 R0805              R5, R12, R15      RESISTOR, American symbol 
+1   390     R-US_R0805 R0805              R24               RESISTOR, American symbol 
+1   39k     R-US_R0805 R0805              R26               RESISTOR, American symbol 
+1   3k      R-US_R0805 R0805              R22               RESISTOR, American symbol 
+2   3k9     R-US_R0805 R0805              R21, R33          RESISTOR, American symbol 
+1   47k     R-US_R0805 R0805              R27               RESISTOR, American symbol 
+2   56k     R-US_R0805 R0805              R11, R25          RESISTOR, American symbol 
+1   7k5     R-US_R0805 R0805              R7                RESISTOR, American symbol 
+1   8k2     R-US_R0805 R0805              R9                RESISTOR, American symbol 
+2   LM358DR LM358DR    SOIC127P600X175-8N HILO, LOHI        OPERATIONAL AMPLIFIERS    
+2   SWS008  SWS008     SMS-008            S2, S5            SMD Dip Switch 8 pol.     

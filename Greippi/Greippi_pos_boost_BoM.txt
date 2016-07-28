@@ -1,0 +1,13 @@
+Partlist exported from C:/Users/PAJA/Documents/eagle/Uadi-voleco/Klick_master/Greippi/Greippi_pos_boost.sch at 19.7.2016 9:45
+
+Qty Value        Device                 Package             Parts      Description                                             
+1                DIODE-SOD123           SOD123              D1         DIODE                                                   
+1   10k5         R-EU_R0805             R0805               R46        RESISTOR, European symbol                               
+1   220k         R-EU_R0805             R0805               R50        RESISTOR, European symbol                               
+1   22uH         INDUCTORBOURNS_SRN6045 SRN6045             L1         Inductors                                               
+1   2n2          C-USC1206              C1206               C5         CAPACITOR, American symbol                              
+1   46k4         R-EU_R0805             R0805               R48        RESISTOR, European symbol                               
+1   4u7          C-USC0805              C0805               C2         CAPACITOR, American symbol                              
+3   4u7          C-USC1206              C1206               C1, C3, C4 CAPACITOR, American symbol                              
+1   6k2          R-EU_R0805             R0805               R47        RESISTOR, European symbol                               
+1   TPS61170DRVT TPS61170DRVT           SON65P210X210X80-7N BOOST      1.2A High Voltage Boost Converter in 2x2mm2 QFN Package 

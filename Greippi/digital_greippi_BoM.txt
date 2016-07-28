@@ -1,0 +1,28 @@
+Partlist exported from C:/Users/PAJA/Documents/eagle/Uadi-voleco/Klick_master/Greippi/Digital Greippi.sch at 18.7.2016 14:20
+
+Part       Value                   Device                  Package            Description               
+DIGI-1     MOSFET-NCHANNEL2N7002PW MOSFET-NCHANNEL2N7002PW SOT323             Common NMOSFET Parts      
+DIGI-1-AMP LM358DR                 LM358DR                 SOIC127P600X175-8N OPERATIONAL AMPLIFIERS    
+DIGI-2     MOSFET-NCHANNEL2N7002PW MOSFET-NCHANNEL2N7002PW SOT323             Common NMOSFET Parts      
+DIGI-2-AMP LM358DR                 LM358DR                 SOIC127P600X175-8N OPERATIONAL AMPLIFIERS    
+R1         3k                      R-US_R0805              R0805              RESISTOR, American symbol 
+R2         16k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R3         10k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R4         39k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R6         15k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R18        240k                    R-US_R0805              R0805              RESISTOR, American symbol 
+R19        10k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R20        10k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R34        43k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R35        15k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R36        3k                      R-US_R0805              R0805              RESISTOR, American symbol 
+R37        16k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R38        10k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R39        39k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R40        15k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R41        240k                    R-US_R0805              R0805              RESISTOR, American symbol 
+R42        10k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R43        10k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R44        43k                     R-US_R0805              R0805              RESISTOR, American symbol 
+R45        15k                     R-US_R0805              R0805              RESISTOR, American symbol 
+S4         SWS004                  SWS004                  SMS-004            SMD Dip Switch 4 pol.     

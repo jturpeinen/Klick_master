@@ -1,0 +1,32 @@
+Partlist exported from C:/Users/PAJA/Documents/eagle/Uadi-voleco/Klick_master/Greippi/greippi_neg_boost.sch at 19.7.2016 9:57
+
+Qty Value            Device           Package          Parts             Description                                            
+1                    DIODE-SOD123     SOD123           D2                DIODE                                                  
+1   0.06             R-US_R0805       R0805            RSENSE            RESISTOR, American symbol                              
+1   1.5k             R-US_R0805       R0805            RFBB1             RESISTOR, American symbol                              
+3   100n             C-EUC0805        C0805            CBOOT, CINX, CVCC CAPACITOR, European symbol                             
+2   10k              R-US_R0805       R0805            RT, RUV2          RESISTOR, American symbol                              
+1   12p              C-EUC0805        C0805            CCOMP2            CAPACITOR, European symbol                             
+1   150              R-US_R0805       R0805            RFPP2             RESISTOR, American symbol                              
+2   150p             C-EUC0805        C0805            CCOMP1, CCOMP3    CAPACITOR, European symbol                             
+1   180p             C-EUC0805        C0805            CRAMP             CAPACITOR, European symbol                             
+1   1k               R-US_R0805       R0805            RCOMP1            RESISTOR, American symbol                              
+2   1u               C-EUC0805        C0805            CIO, COUTX        CAPACITOR, European symbol                             
+1   1uF              C-EUC0805        C0805            CIN               CAPACITOR, European symbol                             
+1   220              R-US_R0805       R0805            RT1               RESISTOR, American symbol                              
+1   220k             R-US_R0805       R0805            R55               RESISTOR, American symbol                              
+1   22n              C-EUC0805        C0805            CRST              CAPACITOR, European symbol                             
+1   22u              CPOL-USE5-5      E5-5             COUT              POLARIZED CAPACITOR, American symbol                   
+1   270              R-US_R0805       R0805            RUV3              RESISTOR, American symbol                              
+1   3.3k             R-US_R0805       R0805            RUV1              RESISTOR, American symbol                              
+1   33k              R-US_R0805       R0805            RFBT              RESISTOR, American symbol                              
+1   3k3              R-US_R0805       R0805            RFBT1             RESISTOR, American symbol                              
+1   43k              R-US_R0805       R0805            RRAMP             RESISTOR, American symbol                              
+1   56n              C-EUC0805        C0805            CSS               CAPACITOR, European symbol                             
+1   56p              C-EUC0805        C0805            CCOMP             CAPACITOR, European symbol                             
+1   5k6              R-US_R0805       R0805            R49               RESISTOR, American symbol                              
+1   6.8k             R-US_R0805       R0805            RCOMP2            RESISTOR, American symbol                              
+1   68n              C-EUC0805        C0805            CFT               CAPACITOR, European symbol                             
+1   BSZ105N04NS      BSZ105N04NS      PG-TDSON-8       Q1                OptiMOS (TM)3 Power-Transistor N-Channel, Normal level 
+1   KLICK_INDUCTOR01 KLICK_INDUCTOR01 KLICK_INDUCTOR01 U$3                                                                      
+1   LM5088           LM5088           LM5088           U$2                                                                      
